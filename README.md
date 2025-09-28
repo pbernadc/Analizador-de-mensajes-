@@ -17,6 +17,8 @@ El objetivo es ver si los mensajes son **claros, concisos, alarmistas o emotivos
 1. Asegúrate de tener **Python 3.10 o superior** instalado en tu ordenador.  
    (Lo puedes descargar de [python.org](https://www.python.org/)).  
 
-2. Instala las librerías necesarias. Abre una terminal en la carpeta del proyecto y escribe:
-   ```bash
-   pip install pandas openpyxl textstat emoji
+2. Es necesario instalar las siguientes librerías:
+    pip install pandas openpyxl textstat emoji spacy
+
+Uso en el terminal:
+    python analizar_mensajes_basico.py --input "Corpus alertas y mensajes.xlsx" --sheet "Sheet1"
